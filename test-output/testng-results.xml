@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
   <reporter-output>
     <line>
       <![CDATA[QuitBrowser]]>
@@ -14,63 +14,65 @@
       <![CDATA[QuitBrowser]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50602" started-at="2017-11-17T09:29:41Z" finished-at="2017-11-17T09:30:32Z">
+  <suite name="Default suite" duration-ms="44113" started-at="2017-11-20T12:21:37Z" finished-at="2017-11-20T12:22:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="50602" started-at="2017-11-17T09:29:41Z" finished-at="2017-11-17T09:30:32Z">
-      <class name="Scripts.Home">
-        <test-method status="PASS" signature="configBeforeSuit()[pri:0, instance:Scripts.Home@887af79]" name="configBeforeSuit" is-config="true" duration-ms="362" started-at="2017-11-17T14:59:41Z" finished-at="2017-11-17T14:59:41Z">
+    <test name="Default test" duration-ms="44113" started-at="2017-11-20T12:21:37Z" finished-at="2017-11-20T12:22:21Z">
+      <class name="generic.Base">
+        <test-method status="PASS" signature="configBeforeSuit()[pri:0, instance:generic.Base@23e028a9]" name="configBeforeSuit" is-config="true" duration-ms="1268" started-at="2017-11-20T17:51:36Z" finished-at="2017-11-20T17:51:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeSuit -->
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:Scripts.Home@887af79]" name="BeforeTest" is-config="true" duration-ms="0" started-at="2017-11-17T14:59:41Z" finished-at="2017-11-17T14:59:41Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:generic.Base@23e028a9]" name="BeforeTest" is-config="true" duration-ms="1" started-at="2017-11-20T17:51:37Z" finished-at="2017-11-20T17:51:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:Scripts.Home@887af79]" name="BeforeClass" is-config="true" duration-ms="24259" started-at="2017-11-17T14:59:41Z" finished-at="2017-11-17T15:00:05Z">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:generic.Base@23e028a9]" name="AfterTest" is-config="true" duration-ms="1" started-at="2017-11-20T17:52:21Z" finished-at="2017-11-20T17:52:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method status="PASS" signature="configAfterSuit()[pri:0, instance:generic.Base@23e028a9]" name="configAfterSuit" is-config="true" duration-ms="521" started-at="2017-11-20T17:52:22Z" finished-at="2017-11-20T17:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterSuit -->
+      </class> <!-- generic.Base -->
+      <class name="Scripts.Home">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:Scripts.Home@3dd4520b]" name="BeforeClass" is-config="true" duration-ms="27892" started-at="2017-11-20T17:51:37Z" finished-at="2017-11-20T17:52:05Z">
           <reporter-output>
             <line>
               <![CDATA[QuitBrowser]]>
             </line>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:Scripts.Home@887af79]" name="BeforeMethod" is-config="true" duration-ms="110" started-at="2017-11-17T15:00:05Z" finished-at="2017-11-17T15:00:05Z">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:Scripts.Home@3dd4520b]" name="BeforeMethod" is-config="true" duration-ms="323" started-at="2017-11-20T17:52:05Z" finished-at="2017-11-20T17:52:06Z">
           <reporter-output>
             <line>
               <![CDATA[Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TestScript1()[pri:0, instance:Scripts.Home@887af79]" name="TestScript1" duration-ms="26126" started-at="2017-11-17T15:00:05Z" finished-at="2017-11-17T15:00:32Z">
+        <test-method status="PASS" signature="TestScript1()[pri:0, instance:Scripts.Home@3dd4520b]" name="TestScript1" duration-ms="15618" started-at="2017-11-20T17:52:06Z" finished-at="2017-11-20T17:52:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestScript1 -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Scripts.Home@887af79]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-11-17T15:00:32Z" finished-at="2017-11-17T15:00:32Z">
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Scripts.Home@3dd4520b]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-11-20T17:52:21Z" finished-at="2017-11-20T17:52:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="configAfterClas()[pri:0, instance:Scripts.Home@887af79]" name="configAfterClas" is-config="true" duration-ms="87" started-at="2017-11-17T15:00:32Z" finished-at="2017-11-17T15:00:32Z">
+        <test-method status="PASS" signature="configAfterClas()[pri:0, instance:Scripts.Home@3dd4520b]" name="configAfterClas" is-config="true" duration-ms="172" started-at="2017-11-20T17:52:21Z" finished-at="2017-11-20T17:52:21Z">
           <reporter-output>
             <line>
               <![CDATA[QuitBrowser]]>
             </line>
           </reporter-output>
         </test-method> <!-- configAfterClas -->
-        <test-method status="PASS" signature="configAfterClass()[pri:0, instance:Scripts.Home@887af79]" name="configAfterClass" is-config="true" duration-ms="0" started-at="2017-11-17T15:00:32Z" finished-at="2017-11-17T15:00:32Z">
+        <test-method status="PASS" signature="configAfterClass()[pri:0, instance:Scripts.Home@3dd4520b]" name="configAfterClass" is-config="true" duration-ms="1" started-at="2017-11-20T17:52:21Z" finished-at="2017-11-20T17:52:21Z">
           <reporter-output>
             <line>
               <![CDATA[QuitBrowser]]>
             </line>
           </reporter-output>
         </test-method> <!-- configAfterClass -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Scripts.Home@887af79]" name="AfterTest" is-config="true" duration-ms="0" started-at="2017-11-17T15:00:32Z" finished-at="2017-11-17T15:00:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterTest -->
-        <test-method status="PASS" signature="configAfterSuit()[pri:0, instance:Scripts.Home@887af79]" name="configAfterSuit" is-config="true" duration-ms="278" started-at="2017-11-17T15:00:32Z" finished-at="2017-11-17T15:00:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAfterSuit -->
       </class> <!-- Scripts.Home -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
